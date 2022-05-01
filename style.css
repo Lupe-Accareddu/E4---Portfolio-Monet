@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ♠ Header ♠ */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    box-shadow: 0px 1px 0px black;
+}
+
+.list-item{
+    display: inline;
+    padding: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav{
+    margin-top: 1rem;
+}
+
+/* ♥ Home ♥ */
+
+.home{
+    margin: 4rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-div{
+    margin-left: 2rem;
+}
+
+.monet-photo{
+    border: 1px solid black;
+    box-shadow: 2px 0.2px 4px 2px black;
+}
+
+h1{
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.home p{
+    font-weight: 600;
+}
+
+/* ♣ Style ♣ */
+
+
+.styles-section{
+    text-align: center;
+    
+}
+
+.style-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-card{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.painting-frame{
+    height: 290px;
+    width: 220px;
+    border: 1px solid black;
+    box-shadow: 2px 0.2px 4px 2px black;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.styles-section p{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+
+
+}
+
+h3{
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+
+/*  ♠ Work ♠  */
+
+.work-section{
+    text-align: center;
+    padding: 4rem;
+    margin-bottom: 2rem;
+}
+
+.process-card{
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid black;
+    box-shadow: 2px 0.2px 4px 2px black;
+    height: 15rem;
+}
+
+
+.process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.iconito{
+    font-size: 50px;
+    padding: 6px;
+}
+
+.work-section p{
+    padding: 1rem;
+    font-weight: 600;
+}
+
+/* ♦ Gallery ♦ */
+
+.gallery-section{
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.gallery-section p{
+    font-weight: bold;
+}
+
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-card{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+/* ♣ Footer ♣ */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.social{
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+
+/* ♥ Media Queris ♥ */
+
+@media (max-width: 768px){
+  header{
+      padding: 0;
+      margin: 0;
+ }
+ .nav-div{
+     display: none;
+ }
+   
+ .home{
+     flex-direction: column;
+ }
+ .claude-home{
+     display: none;
+ }
+ .style-card-container{
+     flex-direction: column;
+ }
+ .process-container{
+     flex-direction: column;
+ }
+.gallery-star{
+    display: none;
+}
+ .gallery-container{
+     flex-direction: column;
+ }
+ footer{
+     flex-direction: column;
+ }
+}
